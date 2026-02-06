@@ -349,7 +349,7 @@ section{
     align-items: center;
     margin-bottom: 0px;
 }
-@media (max-width: 300px){
+@media (max-width: 500px){
     .hideonmobile {
         display: none;
     }
@@ -365,7 +365,7 @@ section{
     }
  
 }
-@media (min-width: 500px){
+@media (min-width: 300px){
     #showsidebar{
       display: none;
     }
@@ -395,4 +395,5 @@ section{
     font-weight: bold;
     transition: .3s ease-in;
 }
+
 
