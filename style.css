@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* midabka hore ee samaysan   */
+:root{
+    --text: #000000;
+    --bg:  #ffffff;
+    --white-text: #ffff;
+    --card-bg: #0d6994;
+    --welcome: #0a4e6e;
+
+}
+
+
+/* dark mode - only changes variables */
+body.black{
+    --text: #ffffff;
+    --bg: rgb(0, 0, 0);
+    --card-bg: #4e4949;
+    --welcome: #ffff;
+}
+
+
+/* only components with background colors */
+.header, .form-control, 
+#result-wrapper, #courses,
+#info, #see-result{
+    background-color: var(--card-bg);
+}
+
+#welcome h1 p , 
+#sawiro > *  .black{
+    color: var(--text);
+    background: var(--bg);
+}
+
+
+body{
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  
+}
+#bw-btn{
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--card-bg);
+    color: var(--white-text);
+  
+   
+}
+#black-white{
+    position: absolute;
+    left: 100;
+    top: 70px;
+    color: var();
+}
+
+#sawiro > *{
+    color: var(--welcome);
+}
+.xariq{
+    border: .5px solid white;
+    list-style-type: none;
+    padding-left: 4px;
+}
+
+
+
+
+form{
+    width: 400px;
+}
+.cros{
+    fill: #fff;
+
+}
+
+.header{
+    margin: 5px 8px 5px 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    width: 100%;
+
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#sidebar{
+    width: 300px;
+    height: fit-content;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: none;
+    background-color: rgba(0,0,0,0.8);
+
+
+}
+#sidebar nav ul li {
+    width: 100%;
+    
+    justify-content: center;
+    list-style-type: none;
+}
+#sidebar ul{
+padding: 10px;
+}
+#sidebar nav ul li a:hover{
+    background-color: #a06f26;
+    border-radius: 5px;
+}
+#sidebar nav ul li a{
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding: 7px 0px 7px 0px;
+    
+}
+.form-control{
+    width: calc(450px, 100%);
+    margin: 55px 15px 15px 15px;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 10px;
+    color: #ffff;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+    
+
+}
+
+input{
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+    outline: 0;
+
+}
+
+.btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+#btn{
+     background-color: lightskyblue;
+     outline: none;
+     border: none;
+     padding: 5px;
+     border-radius: 5px;
+     width: 120px;
+     font-size: 17px;
+   color: #000000;
+     text-transform: capitalize;
+
+}
+#btn:hover{
+    background-color: #ffff;
+    transition: .5s ease-in-out;
+}
+h1{
+    margin-bottom: 10px ;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    
+
+}
+
+.casaan{
+    border: 1.5px solid red ;
+    
+}
+.casaan::placeholder{
+    color: red;
+   
+}
+.qor{
+    color: var(--textcolor);
+    text-transform: capitalize;
+}
+svg{
+    fill: #ea9719;
+
+}
+
+
+
+   
+   
+     /* wixi courses stylkooda ah */
+.course{
+    width: 300px;
+    padding: 3px;
+    font-size: 18px; 
+    line-height: 30px; 
+    height: fit-content;
+    padding: 13px;
+    border-radius: 20px;
+    display: flex;
+    flex: 1 1 auto;  
+ 
+    
+    
+}
+
+#courses{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    color: #fff;
+     line-height: 25px;
+     margin-top: 5px;
+     justify-content: center;
+    
+ 
+   
+
+}
+
+
+
+
+
+#info{
+         width: 100%;
+         font-family: Arial,  sans-serif;
+         color: rgb(42, 201, 10);
+         display: none;
+         padding: 7px ;
+         margin-top: 10px;
+         border-radius: 5px;
+        
+        
+       
+
+}
+#result-wrapper{
+  
+    max-width: 400px, 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 7px;
+    visibility: hidden;
+    
+}
+
+
+span{
+    color: rgb(254, 230, 132);
+   
+}
+
+
+
+    /* qaybta inputka  */
+input::placeholder{
+    color: rgb(32, 124, 163);
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+nav{
+    width: calc(380px, 100%);
+    
+}
+nav ul{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+
+
+}
+#showsidebar{
+    position: absolute;
+    right: 10px;  
+}
+ul li{
+    list-style-type: none;
+
+}
+.header nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 24px;
+     color: #fff;
+     font-family: sans-serif;
+     text-transform: capitalize;
+     margin-right: -20px;
+}
+.header nav ul :first-child{
+    margin-right: auto;
+}
+.header nav ul :first-child a{
+    color: #f4d71c;
+}
+#welcome > *{
+     color: var(--welcome); 
+    text-transform: capitalize;
+}
+#welcome {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+section{
+    margin-top: 30px;
+    width: 100%;
+}
+.sawiroiyoform{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logojamacad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+@media (max-width: 400px){
+    .hideonmobile {
+        display: none;
+    }
+    #welcome h1{
+        font-size: 23px;
+        
+    }
+    #sidebar{
+        width: 100%;
+    }
+    #showsidebar{
+        display: block;
+    }
+ 
+}
+@media (min-width: 300px){
+    #showsidebar{
+      display: none;
+    }
+    #sidebar{
+        display: none;
+    }
+}
+.see-result{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#see-result{
+    background-color: var(--card-bg);
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+#see-result:hover{
+    background-color: lightblue;
+    color: #5f4297;
+    font-weight: bold;
+    transition: .3s ease-in;
+}
