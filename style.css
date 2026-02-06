@@ -213,55 +213,39 @@ svg{
    
    
      /* wixi courses stylkooda ah */
-#course{
+.course{
+    width: 300px;
     padding: 3px;
     font-size: 18px; 
-    margin: 15px 8px 15px 8px;
     line-height: 30px; 
     height: fit-content;
     padding: 13px;
     border-radius: 20px;
     display: flex;
-    flex: 1 0 auto;  
+    flex: 1 1 auto;  
+ 
+    
     
 }
-#divider{
-    width: 1px;
-    background: rgb(255, 255, 255);
-    margin: 15px 5px 28px 15px;
-    border-radius: 1px;
-}
+
 #courses{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     color: #fff;
-     line-height: 30px;
-     margin-top: 30px;
+     line-height: 25px;
+     margin-top: 5px;
      justify-content: center;
+    
  
    
 
 }
-#course3{
-    width: 50%;
-    display: flex;
-   
-    
-}
-#course4{
-    width: 50%;
-    display: flex;
-   
-    
-}
 
-#course2{
-    margin-left: 5px;
-    display: flex;
-    
-}
+
+
+
 
 #info{
          width: 100%;
@@ -271,6 +255,7 @@ svg{
          padding: 7px ;
          margin-top: 10px;
          border-radius: 5px;
+        
         
        
 
@@ -284,6 +269,7 @@ svg{
     border-radius: 10px;
     padding: 7px;
     visibility: hidden;
+    
 }
 
 
