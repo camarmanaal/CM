@@ -681,7 +681,7 @@ const found = students.find(s =>  s.id === lambarkaardayga)
         course1.innerHTML = `
           
         <span class="bb">Course Name:</span> <br>
-       <span class="bb"> Nursing Health Assessement</span><br>
+       <span class="bb">Advanced Nursing Care </span><br>
            <hr> 
             
             <li class="xariq">Assignment:  ${found.course1.assignment}<br></li>
@@ -695,7 +695,7 @@ const found = students.find(s =>  s.id === lambarkaardayga)
         // natiijadada maadada 2aad
         course2.innerHTML = `
          <span class="bb">Course Name:</span><br>
-         <span class="bb">Advanced Nursing Care</span><br>
+         <span class="bb">Nursing Health Assessement</span><br>
          
             <hr>
           
