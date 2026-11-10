@@ -401,3 +401,20 @@ section{
     justify-content: center;
     display: flex;
 }
+.cashiro{
+    background-color: #0d6994;
+    width: 90vw;
+    height: fit-content;
+    margin-top: 30px;
+    padding: 5px;
+
+}
+.heading1 h1{
+    color: #fff;
+}
+.lesson1{
+    width: 100%;
+    background-color: #5f4297;
+    height: 400px;
+
+}
