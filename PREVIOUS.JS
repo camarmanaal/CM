@@ -169,7 +169,7 @@ btn.addEventListener("click", (event) => {
         return;
     }
 
-    resultWrapper.style.display = "none";
+    resultWrapper.style.display = "block";
 
     // Find student by ID
     const found = students.find(
@@ -249,7 +249,7 @@ btn.addEventListener("click", (event) => {
         course1.style.display = "block";
         course2.style.display = "block";
 
-        resultWrapper.style.visibility = "visible";
+        resultWrapper.style.visibility = "hiden";
 
         studentname.value = "";
         studentID.value = "";
