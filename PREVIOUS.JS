@@ -249,7 +249,7 @@ btn.addEventListener("click", (event) => {
         course1.style.display = "block";
         course2.style.display = "block";
 
-        resultWrapper.style.visibility = "hiden";
+        resultWrapper.style.visibility = "hidden";
 
         studentname.value = "";
         studentID.value = "";
