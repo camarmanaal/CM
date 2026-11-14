@@ -169,7 +169,7 @@ btn.addEventListener("click", (event) => {
         return;
     }
 
-    resultWrapper.style.display = "block";
+    resultWrapper.style.display = "none";
 
     // Find student by ID
     const found = students.find(
